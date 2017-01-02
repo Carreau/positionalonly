@@ -111,15 +111,16 @@ be taken by "positionaly or keyword" arguments.
 
 """
 
-version_info = (0, 1, 0)
+version_info = (0, 0, 1)
 __version__ = '.'.join(str(x) for x in version_info)
 
 import inspect
-from inspect import Signature, Parameter
-from types import FunctionType
-from functools import wraps
-from math import inf
 import functools
+
+from math import inf
+from types import FunctionType
+from inspect import Signature, Parameter
+from functools import wraps
 from collections import defaultdict
 
 POSITIONAL_OR_KEYWORD = inspect._ParameterKind.POSITIONAL_OR_KEYWORD
