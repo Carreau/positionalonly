@@ -111,7 +111,7 @@ be taken by "positionaly or keyword" arguments.
 
 """
 
-version_info = (0, 0, 1)
+version_info = (0, 0, 2)
 __version__ = '.'.join(str(x) for x in version_info)
 
 import inspect
